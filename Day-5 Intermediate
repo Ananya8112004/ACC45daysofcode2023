@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int n,h,i,j;
+	cin>>n;
+	while(n--){
+	  cin>>h;
+	  cout<<(h+1)/2<<endl;
+	}
+	return 0;
+}
