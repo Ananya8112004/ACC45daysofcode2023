@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int n,c;
+	cin>>n;
+	while(n--){
+	    cin>>c>>endl;
+	    if(c%4==0){
+	        cout<<c/4<<endl;
+	    }
+	    else{
+	        cout<<c/4+1<<endl;
+	    }
+	}
+	return 0;
+}
