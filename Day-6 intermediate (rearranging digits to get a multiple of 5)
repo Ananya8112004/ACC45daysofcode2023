@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+void multiple(int N,int i,string a){
+     int c;
+        c=0;
+    for(i=0;i<N;i++){
+       
+    if(a[i]=='0' || a[i]=='5'){
+        c++;
+    }}
+if(c != 0){
+    cout<<"Yes"<<endl;
+}
+else{
+    cout<<"No"<<endl;
+}
+}
+
+int main() {
+	// your code goes here
+	int n,N,i;
+	string a;
+	cin>>n;
+	while(n--){
+	    cin>>N;
+	    cin>>a;
+	    multiple(N,i,a);
+	    
+	}
+	return 0;
+}
