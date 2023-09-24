@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int n,following,Followers;
+	cin>>n;
+	while(n--){
+	    cin>>following;
+	    cin>>Followers;
+	    if(following>10*Followers){
+	        cout<<"YES"<<endl;
+	    }
+	    else{
+	        cout<<"NO"<<endl;
+	    }
+	}
+	return 0;
+}
