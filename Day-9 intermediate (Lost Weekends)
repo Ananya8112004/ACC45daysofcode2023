@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int p,n;
+	cin>>n;
+	int work[5];
+	while(n--){
+	    for(int i=0;i<5;i++){
+	        cin>>work[i];
+	    }
+	   cin>>p;
+	   int sum=0;
+	   for(int i=0;i<5;i++){
+	       sum += work[i]*p;
+	   }
+	   if(sum<=120){
+	       cout<<"No"<<endl;
+	   }
+	   else{
+	       cout<<"Yes"<<endl;
+	   }
+	}
+	return 0;
+}
