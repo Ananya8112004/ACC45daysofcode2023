@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int n,L,B;
+	cin>>n;
+	while(n--){
+	int Limak=0,Bob=0,count=1;
+    cin>>L;
+	cin>>B;
+	for(int i=0;;i++){
+	    if(i%2==0){
+	       Limak=count+Limak;
+	        if(Limak>L){
+	            cout<<"Bob"<<endl;
+	            break;
+	        }
+	        count++;
+	    }
+	    else{
+	        Bob=count+Bob;
+	        if(Bob>B){
+	            cout<<"Limak"<<endl;
+	            break;
+	        }
+	        count++;
+	    }
+	}
+	
+	}	
+	return 0;
+}
